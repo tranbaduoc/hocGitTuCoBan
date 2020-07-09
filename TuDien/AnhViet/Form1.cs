@@ -33,5 +33,10 @@ namespace AnhViet
         {
 
         }
+
+        private void btnSignIn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("tính năng đang được phát triển vui lòng chờ!", "hệ thống", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
     }
 }

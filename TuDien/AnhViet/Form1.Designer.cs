@@ -33,11 +33,12 @@
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtPassWord = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnSignIn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(88, 119);
+            this.button1.Location = new System.Drawing.Point(15, 86);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -77,11 +78,22 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "passWord:";
             // 
+            // btnSignIn
+            // 
+            this.btnSignIn.Location = new System.Drawing.Point(113, 86);
+            this.btnSignIn.Name = "btnSignIn";
+            this.btnSignIn.Size = new System.Drawing.Size(75, 23);
+            this.btnSignIn.TabIndex = 5;
+            this.btnSignIn.Text = "SignIn";
+            this.btnSignIn.UseVisualStyleBackColor = true;
+            this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(229, 249);
+            this.Controls.Add(this.btnSignIn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtPassWord);
             this.Controls.Add(this.txtName);
@@ -102,6 +114,7 @@
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtPassWord;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnSignIn;
     }
 }
 
