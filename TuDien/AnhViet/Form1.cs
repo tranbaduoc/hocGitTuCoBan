@@ -16,5 +16,10 @@ namespace AnhViet
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hello world!","bá được nói",MessageBoxButtons.YesNo,MessageBoxIcon.Information);
+        }
     }
 }
