@@ -19,7 +19,10 @@ namespace AnhViet
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("hello world!","bá được nói",MessageBoxButtons.YesNo,MessageBoxIcon.Information);
+            if(txtName.Text == "duocdung" && txtPassWord.Text == "1234")
+            {
+                MessageBox.Show("hello world!", "bá được nói", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+            }
         }
     }
 }
