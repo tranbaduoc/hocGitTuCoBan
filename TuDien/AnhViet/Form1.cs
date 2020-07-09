@@ -22,10 +22,13 @@ namespace AnhViet
             if(txtName.Text == "duocdung" && txtPassWord.Text == "1234")
             {
                 MessageBox.Show("hello world!", "bá được nói", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                Form2 fr = new Form2();
+                fr.ShowDialog();
+                    this.Close();
             }
             else
             {
-                MessageBox.Show("error","bạn nhập sai Name ỏ Password", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("bạn nhập sai Name ỏ Password","error", MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
 
