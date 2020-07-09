@@ -23,6 +23,15 @@ namespace AnhViet
             {
                 MessageBox.Show("hello world!", "bá được nói", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             }
+            else
+            {
+                MessageBox.Show("error","bạn nhập sai Name ỏ Password", MessageBoxButtons.OK,MessageBoxIcon.Error);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
